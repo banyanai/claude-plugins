@@ -3,16 +3,20 @@
   "name": "banyan-ai",
   "version": "1.0.0",
   "description": "Banyan AI - Specialized agents for Domain-Driven microservices development",
-  "author": "Banyan AI",
-  "url": "https://github.com/banyanai",
-  "repository": "https://github.com/banyanai/claude-plugins",
+  "owner": {
+    "name": "Banyan AI",
+    "url": "https://github.com/banyanai"
+  },
   "plugins": [
     {
       "name": "greenfield-agents",
-      "repository": "https://github.com/banyanai/greenfield-agents",
+      "source": "git+https://github.com/banyanai/greenfield-agents.git",
       "description": "14 specialized agents for DDD, microservices, event storming, architecture documentation, testing, debugging, and security auditing",
       "version": "1.0.0",
-      "author": "Banyan AI",
+      "author": {
+        "name": "Banyan AI",
+        "url": "https://github.com/banyanai"
+      },
       "license": "MIT",
       "keywords": [
         "microservices",
@@ -26,22 +30,6 @@
         "security",
         "gherkin",
         "bdd"
-      ],
-      "agents": [
-        "planner",
-        "service-planner",
-        "service-builder",
-        "event-storming-analyst",
-        "gherkin-business-logic-analyzer",
-        "c4-architecture-documenter",
-        "test-auditor",
-        "bug-test-writer",
-        "trace-investigator",
-        "debug-coordinator",
-        "bug-fixer",
-        "reviewer",
-        "code-auditor",
-        "security-auditor"
       ]
     }
   ]
