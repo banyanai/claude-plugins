@@ -1,0 +1,48 @@
+{
+  "$schema": "https://storage.googleapis.com/anthropic-json-schemas/claude-code/marketplace-manifest.json",
+  "name": "banyan-ai",
+  "version": "1.0.0",
+  "description": "Banyan AI - Specialized agents for Domain-Driven microservices development",
+  "author": "Banyan AI",
+  "url": "https://github.com/banyanai",
+  "repository": "https://github.com/banyanai/claude-plugins",
+  "plugins": [
+    {
+      "name": "greenfield-agents",
+      "repository": "https://github.com/banyanai/greenfield-agents",
+      "description": "14 specialized agents for DDD, microservices, event storming, architecture documentation, testing, debugging, and security auditing",
+      "version": "1.0.0",
+      "author": "Banyan AI",
+      "license": "MIT",
+      "keywords": [
+        "microservices",
+        "ddd",
+        "domain-driven-design",
+        "event-storming",
+        "architecture",
+        "c4-diagrams",
+        "testing",
+        "debugging",
+        "security",
+        "gherkin",
+        "bdd"
+      ],
+      "agents": [
+        "planner",
+        "service-planner",
+        "service-builder",
+        "event-storming-analyst",
+        "gherkin-business-logic-analyzer",
+        "c4-architecture-documenter",
+        "test-auditor",
+        "bug-test-writer",
+        "trace-investigator",
+        "debug-coordinator",
+        "bug-fixer",
+        "reviewer",
+        "code-auditor",
+        "security-auditor"
+      ]
+    }
+  ]
+}
